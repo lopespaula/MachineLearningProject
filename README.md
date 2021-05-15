@@ -4,7 +4,7 @@
 
 This projects uses the Fashion MNIST dataset and the library TensorFlow to train a machine learning model that identifies which piece of clothing is contained in an image.
 
-![Fashion MNIST samples](images/default_pic.png)
+![Fashion MNIST samples](Images/default_pic.png)
 
 ## Fashion MNIST
 
@@ -19,8 +19,8 @@ The model was builded, trained and saved using Jupyter Notebook. And the website
 
 The website first asks you to upload an image of your preference, in PNG. And after running it gives you as an output a prediction of which piece of clothing that image was containing.
 
-![Website](images/website.png)
+![Website](Images/website.png)
 
-![Website Output](images/website_result.png)
+![Website Output](Images/website_result.png)
 
 
