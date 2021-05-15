@@ -27,13 +27,17 @@ def import_and_predict(image_data, model):
 model = tf.keras.models.load_model('trained_model.h5')
 
 st.write("""
-         # Rock-Paper-Scissor Hand Sign Prediction
+         # Piece of Clothing Prediction
          """
          )
 
-st.write("This is a simple image classification web app to predict rock-paper-scissor hand sign")
+st.image("Images/default_pic.png")
 
-file = st.file_uploader("Please upload an image file", type=["jpg", "png"])
+
+st.write("Simple image classification app to predict the type of clothing in an image of one piece of clothing.")
+
+file = st.file_uploader("Please upload an image file of a single piece of clothing", type=["jpg", "png"])
+
 
 
 if file is None:
@@ -66,5 +70,4 @@ else:
     else:
         st.write("It is a Ankle boot!")
     
-    st.text("Probability")
-    st.write(prediction)
+   
