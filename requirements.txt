@@ -1,7 +1,6 @@
-tensorflow
+tensorflow-cpu
 numpy
 streamlit
-plotly_express
 pillow
 
 
