@@ -30,7 +30,7 @@ def import_and_predict(image_data, model):
         
         return prediction
 
-model = tf.keras.models.load_model('128nodes.h5')
+model = tf.keras.models.load_model('models/128nodes.h5')
 
 st.write("""
 
