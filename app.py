@@ -30,12 +30,7 @@ def import_and_predict(image_data, model):
         
         return prediction
 
-<<<<<<< Updated upstream
 model = tf.keras.models.load_model('128nodes.h5')
-=======
-model = tf.keras.models.load_model('models/128nodes.h5')
-display = st.image("Images/default_pic.png", width=600)
->>>>>>> Stashed changes
 
 st.write("""
 
@@ -44,11 +39,6 @@ st.write("""
          """
          )
 
-<<<<<<< Updated upstream
-=======
-
-
->>>>>>> Stashed changes
 st.write("""
 
          ## Simple image classification app to predict the type of clothing in an image of one piece of clothing.

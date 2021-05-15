@@ -1,4 +1,8 @@
 tensorflow==2.5.0
 pillow==6.2.0
 numpy==1.16.5
-streamlit==0.62.0
+streamlit==0.82.0
+plotly_express==0.4.1
+pandas==1.2.4
+pillow==8.2.0
+scikit-image==0.18.1
