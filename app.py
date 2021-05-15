@@ -30,7 +30,7 @@ def import_and_predict(image_data, model):
         
         return prediction
 
-model = tf.keras.models.load_model('models/128nodes.h5')
+model = tf.keras.models.load_model('128nodes.h5')
 
 st.write("""
 
@@ -39,8 +39,6 @@ st.write("""
          """
          )
 
-display = st.image("Images/default_pic.png")
-
 st.write("""
 
          ## Simple image classification app to predict the type of clothing in an image of one piece of clothing.
@@ -48,8 +46,10 @@ st.write("""
          """
          )
 
+display = st.image("Images/default_pic.png")
 
-file = st.file_uploader("Please upload an image file of a single piece of clothing", type=["jpg", "png"])
+
+file = st.file_uploader("Please upload an image file of a single piece of clothing", type=["png"])
 
 
 
@@ -79,7 +79,7 @@ else:
     elif np.argmax(prediction) == 8:
                 st.write("It is a Dress!")
     elif np.argmax(prediction) == 9:
-                st.write("It is a Ankle boot!")
+                st.write("It is a Boot!")
         
 
     st.text("Class Probabilities:")
@@ -101,7 +101,7 @@ else:
     st.write(np.round((prediction[0,7]),decimals=5))
     st.text("8: Dress:") 
     st.write(np.round((prediction[0,8]),decimals=5))
-    st.text("9: Ankle Boot:")
+    st.text("9: Boot:")
     st.write(np.round((prediction[0,9]),decimals=5))
     st.text("Raw prediction array:")
     st.write(prediction)
