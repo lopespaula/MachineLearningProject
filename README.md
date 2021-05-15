@@ -1,4 +1,4 @@
-### Final Project - Data Science and Vizualisation Boot Camp - UCSD Extension Piece of Clothing Prediction: A simple image classification app to predict the type of clothing in an image of one piece of clothing!
+### Final Project - Data Science and Vizualisation Boot Camp - UCSD Extension
 
 # Piece of Clothing Prediction: A simple image classification app to predict the type of clothing in an image of one piece of clothing!
 
