@@ -12,12 +12,12 @@ Fashion MNIST is a dataset that contains 70,000 grayscale images in 10 diferent 
 
 The Fashion MNIST is a slightly more challenging problem than regular MNIST. And in this project we used 60,000 images to train the model and 10,000 images to test the accurance of this model.
 
-The model was builded, trained and saved using Jupyter Notebook. And the website was builted in Python utilizing Streamlit.
+The model was built, trained and saved using Jupyter Notebook. The application was built in Python utilizing Streamlit and deployed using Heroku.
 
 
 ## The Website
 
-The website first asks you to upload an image of your preference, in PNG. And after running it gives you as an output a prediction of which piece of clothing that image was containing.
+The application first asks you to upload an image of your preference, in PNG. And after running it gives you as an output a prediction of which piece of clothing that image was containing.
 
 * Imput:
 
