@@ -24,6 +24,7 @@ The website first asks you to upload an image of your preference, in PNG. And af
 ![Website](Images/website.png)
 
 
+
 * Output:
 
 ![Website Output](Images/website_result.png)
