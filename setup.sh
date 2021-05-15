@@ -8,9 +8,14 @@
 # " > ~/.streamlit/config.toml
 
 mkdir -p ~/.streamlit/
+
+echo “
+ [general]
+ email = "lopespaula31@gmail.com"
  echo “
  [server]
  headless = true
  enableCORS=false
  port = $PORT
 #  “ > ~/.streamlit/config.toml
+
