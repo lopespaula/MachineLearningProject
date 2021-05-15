@@ -19,7 +19,12 @@ The model was builded, trained and saved using Jupyter Notebook. And the website
 
 The website first asks you to upload an image of your preference, in PNG. And after running it gives you as an output a prediction of which piece of clothing that image was containing.
 
+* Imput:
+
 ![Website](Images/website.png)
+
+
+* Output:
 
 ![Website Output](Images/website_result.png)
 
