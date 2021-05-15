@@ -1,7 +1,7 @@
+streamlit
 tensorflow-cpu
 numpy
-streamlit
 pillow
-
-
-
+plotly_express
+scikit-image
+joblib
