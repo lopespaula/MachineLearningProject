@@ -6,4 +6,4 @@ pandas
 pillow
 scikit-image
 joblib
-python
+
