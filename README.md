@@ -1,6 +1,6 @@
-### Piece of Clothing Prediction: A simple image classification app to predict the type of clothing in an image of one piece of clothing!
+### Final Project - Data Science and Vizualisation Boot Camp - UCSD Extension Piece of Clothing Prediction: A simple image classification app to predict the type of clothing in an image of one piece of clothing!
 
-# Final Project - Data Science and Vizualisation Boot Camp - UCSD Extension
+# Piece of Clothing Prediction: A simple image classification app to predict the type of clothing in an image of one piece of clothing!
 
 This projects uses the Fashion MNIST dataset and the library TensorFlow to train a machine learning model that identifies which piece of clothing is contained in an image.
 
