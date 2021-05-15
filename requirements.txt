@@ -2,9 +2,6 @@ tensorflow-cpu
 numpy
 streamlit
 pillow
-plotly_express
-pandas
-scikit-image
-joblib
+
 
 
